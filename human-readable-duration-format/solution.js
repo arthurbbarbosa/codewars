@@ -16,5 +16,3 @@ const solution = (val) => {
 
   return (time.length > 1 ? `${time.slice(0, -1).join(', ')} and ${time.at(-1)}` : time.join(', ')) || 'now'
 }
-
-console.log(solution(132030240))
